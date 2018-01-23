@@ -1,0 +1,44 @@
+# Type your responses on a new line
+
+# 1 - What is the command for listing the files in the current folder (directory)?
+ls
+
+# 2 - What is the command for changing directories?
+cd name_of_directory
+
+# 3 - What is the command for going back a folder (to a parent directory)?
+cd ..
+
+# 4 - What is a quick way to create a new folder?
+mkdir new-folder
+
+# 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
+If it is empty, nothing will show in the directory.
+If there are files or any child directories, they will show with the command
+
+# 6 - What is a quick way to create a new file?
+touch new-file.txt
+
+# 7 - Run 'git --version' in your terminal. What is the output?
+git version 2.15.1
+
+# 8 - Why would you run the command 'git status'?
+It checks the state of the directory you are in, whether it is ahead of the main
+branch or not.  This will be the case if you've made changes since the last commit.
+It also checks to see if the file or directory is ready for a commit after adding
+it to the staging area with the git add . command.  Finally it can tell you that
+the commit was successful and that the files in your repository are up to date with
+the files on your computer.
+
+# 9 - What does the command 'git add .' do?
+It tells git that you want to save changes to the particular file
+or directory that you are working on.
+If you haven't shown git the file yet, you need to use the command git init.
+This tells git that this is a new file that you want to make commits for and track.
+After that then you can use the command git add . to get the file ready for a commit.
+Finally the command for the actual commit is git commit -m "newfile".
+This saves this version of the file to your computer, and will still be available
+if you make any further changes to it or more commits of the file.
+
+# 10 - What is the command to push your committed changes to your repo on GitHub?
+git push origin master
